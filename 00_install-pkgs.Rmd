@@ -1,17 +1,17 @@
 
-
-
 ```{r}
 my_pkgs <- 
    c("tidyverse", "rstatix", "haven", "pysch", "flextable", "gtsummary",
     "lavaan", "semPlot", "lavaanExtra", "sjPlot", "semTools", "corrr", 
-    "gtools", "prettyunits", "mice"
+    "gtools", "prettyunits", "mice", "devtools"
     )
 
 install.packages(my_pkgs, 
     repos = "http://mirrors.tuna.tsinghua.edu.cn/CRAN", 
     dependencies = TRUE
 )
+
+devtools::install_github("cardiomoon/processR")
 ```
 
 
